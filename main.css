@@ -26,6 +26,34 @@
     width: 100px;
   
 }
+.dropdown:hover .dropdown-menu{
+display: block !important;
+transition: 0.3s !important;
+}
+.dropdown-menu{
+    display: none !important;
+    padding-top: 15px !important;
+    /* padding-left: 10px !important; */
+    padding-bottom: 15px;
+    padding-right: 13px !important;
+    box-shadow: 0 6px 19px rgba(13, 13, 14, 0.1) !important;
+
+}
+.dropdown-menu .dropdown-item{
+    color: #00819d !important;
+    font-weight: 500 !important;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #00819d !important;
+    color: white !important;
+    transition: 0.2s !important;
+    border-radius: 5px;
+}
+
+.nav_link:hover{
+color: #00819d !important;
+transition: 0.3s;
+}
 .banner{
     width: 200%;
 }
