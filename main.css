@@ -16,7 +16,9 @@
     padding-left: 15px !important;
     font-weight: 600 !important;
 }
-
+.logo_img{
+    width: 200px;
+}
 @media screen and (max-width: 1000px) {
     .navlink {
         margin-left: 0px !important;
