@@ -15,11 +15,11 @@ class Mynavbar extends HTMLElement {
                 <strong>Services</strong>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Data Engineering</a></li>
-                <li><a class="dropdown-item" href="#">Data Analytics</a></li>
-                <li><a class="dropdown-item" href="#">Data Science</a></li>
-                <li><a class="dropdown-item" href="#">Data Ingesting</a></li>
-                <li><a class="dropdown-item" href="#">Migration</a></li>
+                <li><a class="dropdown-item" href="services.html"><img src="images/Data_engineer.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Engineering</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Data_analytics.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Analytics</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Data_Science.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Science</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Data_Ingesting.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Ingesting</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Migration.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspMigration</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -30,11 +30,11 @@ class Mynavbar extends HTMLElement {
                 </strong>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">HLS</a></li>
-                <li><a class="dropdown-item" href="#">Retail</a></li>
-                <li><a class="dropdown-item" href="#">Manufacturing</a></li>
-                <li><a class="dropdown-item" href="#">Financial Services</a></li>
-                <li><a class="dropdown-item" href="#">CPG</a></li>
+                <li><a class="dropdown-item" href="industries.html"><img src="images/HLS.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspHLS</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Retail.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspRetail</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Manufacturing.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspManufacturing</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Finance.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspFinancial Services</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/CPG.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspCPG</a></li>
               </ul>
             </li>
             <li class="nav-item">

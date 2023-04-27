@@ -170,3 +170,16 @@
 .footer_clr {
     color: rgb(161, 157, 157) !important;
 }
+.Header-subtitle {
+    font-size: 1.125rem;
+    font-family: "IBMPlexSans", "Arial Narrow", sans-serif;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: normal;
+    color: #2d2c2b !important;
+}
+
+.icon-nav{
+    width: 25px;
+    
+}
