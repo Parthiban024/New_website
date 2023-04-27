@@ -1,6 +1,6 @@
 class Mynavbar extends HTMLElement {
     connectedCallback() {
-      this.innerHTML = `   <nav class="navbar navbar-expand-lg  navmain">
+      this.innerHTML = `<nav class="navbar navbar-expand-lg  navmain">
       <div class="container">
         <!-- <a class="navbar-brand" href="#"><img src ="images//Logo.png" class="logo" alt="logo"></a> -->
         <a class="navbar-brand" href="#"><img src="images//Logo-removebg-preview.png" class="img-fluid logo_img" alt="logo"></a>
@@ -11,37 +11,37 @@ class Mynavbar extends HTMLElement {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 navlink">
             <li class="nav-item dropdown">
-              <a class="nav-link nav_link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link nav_lnk nav_link Header-subtitle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <strong>Services</strong>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Data Engineering</a></li>
-                <li><a class="dropdown-item" href="#">Data Analytics</a></li>
-                <li><a class="dropdown-item" href="#">Data Science</a></li>
-                <li><a class="dropdown-item" href="#">Data Ingesting</a></li>
-                <li><a class="dropdown-item" href="#">Migration</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Data_engineer.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Engineering</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Data_analytics.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Analytics</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Data_Science.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Science</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Data_Ingesting.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspData Ingesting</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Migration.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspMigration</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link nav_lnk nav_link" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link nav_lnk nav_link Header-subtitle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 <strong>
                   Industries
                 </strong>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">HLS</a></li>
-                <li><a class="dropdown-item" href="#">Retail</a></li>
-                <li><a class="dropdown-item" href="#">Manufacturing</a></li>
-                <li><a class="dropdown-item" href="#">Financial Services</a></li>
-                <li><a class="dropdown-item" href="#">CPG</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/HLS.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspHLS</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Retail.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspRetail</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Manufacturing.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspManufacturing</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/Finance.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspFinancial Services</a></li>
+                <li><a class="dropdown-item" href="#"><img src="images/CPG.png" class="img-fluid icon-nav" alt="Responsive image">&nbsp&nbspCPG</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav_link" href="#"><strong>Company</strong></a>
+              <a class="nav-link nav_link Header-subtitle" href="#"><strong>Company</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav_link" href="#"><strong>Blog</strong></a>
+              <a class="nav-link nav_link Header-subtitle" href="#"><strong>Blog</strong></a>
             </li>
           </ul>
           <button class="btn btn-outline-primary nav_btn" type="button"><strong>Contact Us</strong></button>
