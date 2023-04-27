@@ -150,3 +150,18 @@
 .footer_clr {
     color: rgb(161, 157, 157) !important;
 }
+
+
+
+/* services */
+.Data_eng{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 1px solid #fc6140;
+    width: 200px !important;
+}
+.Data_font{
+    font-size: 28px;
+    
+}

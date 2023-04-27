@@ -15,7 +15,7 @@ class Mynavbar extends HTMLElement {
                 <strong>Services</strong>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Data Engineering</a></li>
+                <li><a class="dropdown-item" href="services.html">Data Engineering</a></li>
                 <li><a class="dropdown-item" href="#">Data Analytics</a></li>
                 <li><a class="dropdown-item" href="#">Data Science</a></li>
                 <li><a class="dropdown-item" href="#">Data Ingesting</a></li>
@@ -30,7 +30,7 @@ class Mynavbar extends HTMLElement {
                 </strong>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">HLS</a></li>
+                <li><a class="dropdown-item" href="industries.html">HLS</a></li>
                 <li><a class="dropdown-item" href="#">Retail</a></li>
                 <li><a class="dropdown-item" href="#">Manufacturing</a></li>
                 <li><a class="dropdown-item" href="#">Financial Services</a></li>
