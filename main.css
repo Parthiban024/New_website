@@ -4,6 +4,7 @@
 }
 
 .navlink {
+    /* width: 300px !important; */
     margin-left: 60px !important;
 }
 
@@ -27,7 +28,8 @@
 
 .sec2_para {
     font-size: 25px;
-    font-weight: 500;
+    font-family: "IBMPlexSans", "Arial Narrow", sans-serif;
+    font-weight: 400;
     color: rgb(6, 6, 121);
     border-bottom: 1px solid #fc6140;
     width: 100px;
@@ -40,12 +42,14 @@
 }
 
 .dropdown-menu {
+    width: 250px !important;
     display: none !important;
     padding-top: 15px !important;
-    /* padding-left: 10px !important; */
-    padding-bottom: 15px;
-    padding-right: 13px !important;
-    box-shadow: 0 6px 19px rgba(13, 13, 14, 0.1) !important;
+    padding-left: -10px !important;
+    padding-bottom: 15px !important;
+    padding-right: 3px !important;
+    box-shadow: 2 20px 19px rgba(4, 4, 6, 0.1) !important;
+    border:1px solid black !important;
 
 }
 
@@ -115,8 +119,24 @@
     font-size: 25px;
     font-weight: 500;
     color: rgb(6, 6, 121);
-    border-bottom: 1px solid #fc6140;
-    width: 150px !important;
+    border-bottom: 2px solid #fc6140;
+    width: 93px !important;
+}
+
+.sec4_para {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 2px solid #fc6140;
+    width: 98px !important;
+}
+
+.sec5_para {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(6, 6, 121);
+    border-bottom: 2px solid #fc6140;
+    width: 135px !important;
 }
 
 /* footer */
@@ -149,19 +169,4 @@
 
 .footer_clr {
     color: rgb(161, 157, 157) !important;
-}
-
-
-
-/* services */
-.Data_eng{
-    font-size: 25px;
-    font-weight: 500;
-    color: rgb(6, 6, 121);
-    border-bottom: 1px solid #fc6140;
-    width: 200px !important;
-}
-.Data_font{
-    font-size: 28px;
-    
 }
